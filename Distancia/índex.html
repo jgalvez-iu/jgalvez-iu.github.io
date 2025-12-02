@@ -1,0 +1,20 @@
+<html>
+  <head></head>
+  <body>
+<h1>Càlcul de distancies mínimes i rutes optims</h1>
+<p>Suposem que volem calcular la distancia entre dos punts en el planeta Terra, necessitem dos coordenades per cada punt.</p>
+<p>Les dos coordendenades que defineixen un punt a la Terra són la <b>latitud</b>, que mesuraen en el lateral de laTerra
+quina distància (en graus) hi ha entre l'equador i el pol nord. L'altra coordenada és la longitud i mrsura la distància (en graus) entre el meridià
+de Greenwich (que va del pol nord al pol sud) i el punt que volem.</p>
+
+    <p>A la imatge anterior podem veure la longitud i la latitud de Martorell i volem saber la distància que hi té fins a Madrid.
+    Les coordenades de Martorell són: 41º 29' 15.9" N i 1ª 56' 07.6" E, i les de Madrid són: 40º 30'N i 3º 40'0.</p>
+    <h2> Com calculem la distància</h2>
+    <p>Suposem que la terra és plana i hem de calcular la diferència de latitud i la diferència de longitud i, gràcies al Teorema de Pitàgores, sabrem 
+    la hipotenusa o distància mínima. Desprès suposarem que la Terra és una esfera i calcularem la distància amb la formula d'Haversine i, per últim suposarem
+    que la Terra es un el·lipsoid i calcularem les distàncies am les formules de Vincenty.</p>
+    <p>Primer hem de saber quants metres és un grau i per aixó utilitzarem la definició antiga de metre. Un metre és una deumilonèssima part de la
+    distància entre l'equador i el pol nord. Aixó vol dir que 360 graus són 40000 quilòmetres. Podem fer un càlcul més exacte, amb el radi de la Terra
+    i 2*PI*6371=40030.173592</p>
+</body>
+</html>
