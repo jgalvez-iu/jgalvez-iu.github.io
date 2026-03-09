@@ -125,9 +125,16 @@
   <p> Si vols aprendre HTML i altres llenguatges de programació hi ha molts videotutorials com aquest: </p>
     
 <iframe width="853" height="480" src="https://www.youtube.com/embed/MJkdaVFHrto" title="Aprende HTML ahora! curso completo GRATIS desde cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-   <p class="lead">El primer codi que farem serà una cara dibuixada amb p5.js. La forma de la cara  serà una el·lipse, els ulls també la boca serà un arc
-     . Farem qu la boca es mogui amb el volum micròfon. També farem que la boca es mogui obri i es tanqui. També ho farem amb la funció sinus, que farà
-     que la boca tingui moviment.</p>
+   <p class="lead">Amb l'ajuda del programa P5.js hem dibuixat varies cares:.</p>
+    <ol>
+       <li>Cara bàsica: És una cara en 2D en forma d'elipse, ulls en forma d'elipse i boca en forma d'arc. Podem variar la forma i el color manualment.</li>
+       <li>Cara micrófon: És la mateixa cara que l'anterior, però aquí la boca i els ulls varien de tamany depenent del volum que capti el micròfon. Tambè podem fer que el color varïi depenent del mateix factor.</li>
+       <li>Cara ratolí: És una cara igual que la bàsica, però aquesta segueix el teu ratolí. I es pot fer que el tamany de la cara i qualsevol color canvïi depenent de la posició del ratolí.</li>
+       <li>Cara sinus: És una cara igual que la bàsica però aquesta varia el color i el tamany gràcias a les funcions "sinus" i "cosinus". Aquestes funcions generen números d'entre 1 i -1 en una escala,
+         i aquests números els representem com a valors com els d'un color, posició tamany, etc. De forma repetitiva.</li>
+       <li>Cara noise: És una cara com la bàsica. Però amb les funcions "random" i "noise" Podem generar números aleatoris per representarlos amb valors com els del color, tamany, posició, etc. Random és una funció que genera números totalment aleatoris. I noise és una
+        funció molt emparada en videojocs, que genera Números aleatoris proprers (sense canvis bruscos)</li>
+    </ol>
   </main>
   <p>Utilitzarem <a href="https://p5js.org/es/"p5.js></a> per dibuixar i <a href="https://ml5js.org/"ml5.js></a> per identificar emocions</p>
 <p>Hem analitzat la contaminació de Martorell descarregant les dades de la
