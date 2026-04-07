@@ -1,0 +1,19 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1>Epidemiologia ambiental a Martorell (2012-2025)</h1>
+    <p>Tenim dades de contaminació, meteorològiques i d'infeccions respiratories a Martorell diàries des del 2012 al 2020.</p>
+    <p>Aquestes dades les hem obtingut i combinat de tres servidors diferents de la Generalitat de Catalunya, per contaminació ambiental
+      del servidor XPVCA (Xarxa de Prevenció i Vigilància de la Contaminació Atmosfèrica), per dades meteorològiques del servidor Meteocat
+      i per dades d'infeccions respiratòries del servidor SIVIC ( Sistema d'Informació per a la Vigilància d'Infeccions a Catalunya).</p>
+    <p>Per ordenar les dades hem utilitzat tidyverse de Rstudio: The 80/20 rule: "You spend 80% of the time cleaning and prepping data and 20% 
+      of your time actually doing analysis and delivering insights". Vol dir que passes un 80% del temps ordenant i netejant les dades, i només un 20% analitzant-les.</p>
+    <p>Per analitzar les dades combinades podem fer servir biblioteques de R especialitzades en epidemiologia ambiental com per exemple: dlnm (distributed lag linear and non-linear models)
+    que vol dir que quan augmenta la contaminació augmenta el número d'infeccions respiratòries però no sempre d'una forma lineal (no és el mateix un augment de 5 unitats de contaminació 
+      en valors molt baixos que en valors mitjans). A més hi ha lags o retards entre que respirem un aire contaminat que afecta a les defenses i patim un o diversos dies després una infecció respiratòria
+    </p>
+    <p>Podem veure un model més senzill de corelacions a la pagina web <a href="https://jgalvez-iu.github.io/epi">epidemiologia ambiental.</p>
+  </body>
+</html>
